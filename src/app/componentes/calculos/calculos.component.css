@@ -1,0 +1,49 @@
+form {
+  text-align: left;
+  margin-top: 20px;
+}
+
+label {
+  width: 100%;
+  color: #333;
+  font-size: 18px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 0.25rem;
+  margin: 10px 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 100%;
+  border-radius: 0.25rem;
+  padding: 10px;
+  border: 1px solid seagreen;
+  background-color: seagreen;
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: white;
+  color: seagreen;
+}
+
+button:focus {
+  outline: none;
+}
+
+.form-resultado {
+  display: block;
+}

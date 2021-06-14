@@ -1,0 +1,10 @@
+label {
+  width: 100%;
+  color: #333;
+  font-size: 18px;
+}
+
+.form-resultado {
+  display: flex;
+  flex-direction: column-reverse;
+}

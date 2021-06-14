@@ -1,0 +1,15 @@
+<form #itemForm="ngForm" (ngSubmit)="onSubmit(itemForm)">
+  <label for="real">Real para Dólar</label>
+  <input
+    [ngModel]="item.real"
+    type="number"
+    name="real"
+    id="real"
+    required
+    placeholder="R$ 10"
+  />
+
+  <div class="form-btn">
+    <button [disabled]="!itemForm.valid" type="submit">Converter</button>
+  </div>
+</form>

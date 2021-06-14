@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+.content {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #f0e68c;
+  padding: 20px;
+  margin: 20px;
+}
